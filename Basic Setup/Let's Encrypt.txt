@@ -1,0 +1,8 @@
+This is instruction manual to demonstrate how to set SSL certificate to use https
+
+1: Add public IP address and domain name in /etc/hosts 
+  Example 101.101.101.11 google.com 
+          101.101.101.11 www.google.com
+          
+2: Create configuration file in /etc/apache2/sites-available/
+
