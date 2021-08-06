@@ -4,5 +4,7 @@ This is instruction manual to demonstrate how to set SSL certificate to use http
   Example 101.101.101.11 google.com 
           101.101.101.11 www.google.com
           
-2: Create configuration file in /etc/apache2/sites-available/
+2: Create configuration file in /etc/apache2/sites-available/ 
+  Example here 
 
+3:
