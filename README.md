@@ -5,7 +5,7 @@ This repository is for to save notes and files related to my personal server
   - Owncloud: Personal cloud storage 
   - Apache2: web server for owncloud and portfolio
   - Pi-hole: Network ad block 
-  - Speedtest: Script for testing upload and download speed
+  - Speedtest: Script for testing upload and download speed [Link] (sudo apt-get install speedtest-cli)
 - Past Project
   - PI Project: This project was dedicate Rasberry Pi 4B 4GB's entire machine power to caculate pi for 91 days (Had to quit due to moving out flat)
 - Future Plan
