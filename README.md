@@ -7,6 +7,7 @@ This repository is for to save notes and files related to my personal server
   - Pi-hole: Network ad block 
   - Speedtest: Script for testing upload and download speed
 - Past Project
+  - PI Project: This project was dedicate Rasberry Pi 4B 4GB's entire machine power to caculate pi for 91 days (Had to quit due to moving out flat)
 - Future Plan
   - Backkup server
   - UPS module
@@ -29,7 +30,7 @@ Speedtest:
 
 ## Past project
 ### Pi Project
-This project was dedicate Rasberry Pi 4B 4GB's entire machine power to caculate pi for 91 days (Had to quit due to moving out flat)
+
 
 ## Future Plan
 
