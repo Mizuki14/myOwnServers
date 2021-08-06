@@ -22,9 +22,6 @@ Certbot (Let's Encrypt): SSL certificate
 Pi-hole:
 Speedtest: 
 
-## Services Currently Available:
-
-
 ## Server Specification
 
 
