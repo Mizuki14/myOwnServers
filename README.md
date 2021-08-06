@@ -1,10 +1,10 @@
 # Learning_and_Notes
 This repository is for to save notes and files related to my personal server
 
-Server Specification
+## Server Specification
 Hardware : Rasberry Pi Model 4 with 4GB RAM
 
-## Software:
+## Required Software:
 Apache2 : Web server for owncloud, Pi hole
 MYSQL: database for owncloud
 
@@ -17,6 +17,9 @@ Speedtest: Script for testing upload and download speed
 
 Let's Encrypt: SSL certificate 
 
+## Past project
+### Pi Project
+This project was dedicate Rasberry Pi 4B 4GB's entire machine power to caculate pi for 91 days (Had to quit due to moving out flat)
 
 ## Future Plan
 
