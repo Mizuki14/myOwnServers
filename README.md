@@ -1,21 +1,31 @@
 # Learning_and_Notes
 This repository is for to save notes and files related to my personal server
+- Required Software
+- Services Currently Available
+  - Owncloud: Personal cloud storage 
+  - Apache2: web server for owncloud and portfolio
+  - Pi-hole: Network ad block 
+  - Speedtest: Script for testing upload and download speed
+- Past Project
+- Future Plan
+  - Backkup server
+  - UPS module
+- Server Specification
+  - Hardware : Rasberry Pi Model 4 with 4GB RAM
 
-## Server Specification
-Hardware : Rasberry Pi Model 4 with 4GB RAM
 
 ## Required Software:
 Apache2 : Web server for owncloud, Pi hole
 MYSQL: database for owncloud
+Certbot (Let's Encrypt): SSL certificate
+Pi-hole:
+Speedtest: 
 
-## Services currently available:
-Owncloud: Personal cloud storage 
-Apache2: web server for owncloud and portfolio
-Pi-hole: Network ad block 
-Speedtest: Script for testing upload and download speed
+## Services Currently Available:
 
 
-Let's Encrypt: SSL certificate 
+## Server Specification
+
 
 ## Past project
 ### Pi Project
