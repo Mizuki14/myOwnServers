@@ -21,9 +21,7 @@ This repository is for to save notes and files related to my personal server
 - Certbot (Let's Encrypt): SSL certificate
 - Pi-hole:
 - Speedtest: 
-
-## Server Specification
-
+- Vim
 
 ## Past project
 ### Pi Project
