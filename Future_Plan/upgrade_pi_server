@@ -1,0 +1,10 @@
+Required Items
+
+- UPS module powered by 2 * 18650 Panasonic 3.7v 2900mAh
+  This calculation is assuming that power convertion rate is 100 %
+ 
+  According to powertop my Rasberry Pi 4B is consuming about 350mA when it is idel
+  total capacity of battery is 5800mAh
+  
+- 2 * 18650 battery per module
+
