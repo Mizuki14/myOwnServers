@@ -11,6 +11,7 @@ This repository is for to save notes and files related to my personal server
 - Future Plan
   - Backkup server (another Rasberry Pi 4B)
   - UPS module
+  - Carry case
 - Server Specification
   - Hardware : Rasberry Pi Model 4 with 4GB RAM
 
