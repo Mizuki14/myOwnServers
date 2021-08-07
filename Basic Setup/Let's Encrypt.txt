@@ -27,3 +27,6 @@ I'm using Rasberry Pi 4B running Ubuntu 20.04, if you are using different OS, pr
 
   Issue certtificate (If you are using apache2)
   sudo certbot --apache 
+
+For more info
+https://certbot.eff.org/lets-encrypt/ubuntufocal-apache 
