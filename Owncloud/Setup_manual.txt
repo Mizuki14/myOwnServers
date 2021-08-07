@@ -1,0 +1,82 @@
+Update package list and add new repository 
+sudo apt-get install software-properties-common unzip
+sudo add-apt-repository ppa:ondrej/apache2
+sudo add-apt-repository ppa:ondrej/php
+sudo apt-get update
+
+Install apache2 and related software such as php
+sudo apt-get install -y apache2 libapache2-mod-php7.3 php7.3 php7.3-curl php7.3-gd php7.3-xml php7.3-mbstring php7.3-zip php7.3-intl
+
+install mariadb
+sudo apt-get install -y mariadb-server php7.3-mysql
+
+Download ownCloud
+cd /var/www/html/
+sudo wget https://download.owncloud.org/community/owncloud-10.4.0.zip
+sudo wget https://download.owncloud.org/community/owncloud-10.4.0.zip.md5
+
+Check hash value to check integrity of file
+sudo md5sum -c owncloud-10.4.0.zip.md5 < owncloud-10.4.0.zip
+
+unzip the file and change ownership of directory
+sudo unzip owncloud-10.4.0.zip
+sudo chown www-data: -R owncloud
+
+Create new Apache configuration file
+# !!! location: sudo vim /etc/apache2/sites-available/[example.com]" !!! #
+sudo vi /etc/apache2/sites-available/owncloud.conf
+
+<VirtualHost *:80>
+    ServerName [example.com]
+    ServerAlias [www.example.com]
+    DocumentRoot "/var/www/html/[example]"
+    ErrorLog "/private/var/log/apache2/error.log"
+        <Directory "/var/www/html/[example]">
+                Options Indexes FollowSymLinks
+                AllowOverride All
+                Require all granted
+        </Directory>
+</VirtualHost>
+
+<VirtualHost *:443>
+    ServerName [example.com]
+    ServerAlias [www.example.com]
+    DocumentRoot "/var/www/html/[example]"
+    SSLEngine on 
+    SSLCertificateFile /etc/ssl/certs/ssl-public.pen
+    SSLCertificateKeyFile /etc/ssl/private/ssl-cert.key
+</VirtualHost>
+
+
+Enable the configuration and restart Apache server
+sudo ln -s /etc/apache2/sites-available/<example.com> /etc/apache2/sites-enabled/[domain.com]
+sudo a2enmod rewrite
+sudo service apache2 restart
+sudo chown -R www-data:www-data /var/www/html/owncloud/
+
+Add host in /etc/hosts
+    127.0.0.1 localhost
+    127.0.0.1 ubuntu
+    101.101.101.11 example.com
+    158.140.231.225 www.example.com
+
+    # The following lines are desirable for IPv6 capable hosts
+    ::1 ip6-localhost ip6-loopback
+    fe00::0 ip6-localnet
+    ff00::0 ip6-mcastprefix
+    ff02::1 ip6-allnodes
+    ff02::2 ip6-allrouters
+    ff02::3 ip6-allhosts
+    add ip address
+
+専用のデータペース作成
+sudo mysql -u root -p
+
+CREATE DATABASE owncloud;
+create user 'owncloud'@'localhost' identified by 'Mizuki9514';
+update mysql.user set grant_priv='Y', super_priv='Y' where user='owncloud';
+FLUSH PRIVILEGES;
+
+### In case of errror ###
+syntax error or access violation 1142 create command denied to user
+ GRANT ALL PRIVILEGES ON `owncloud`.* TO 'owncloud'@'localhost'
