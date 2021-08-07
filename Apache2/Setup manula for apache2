@@ -1,1 +1,11 @@
-Setup manula for apache2
+Setup apache and configuration
+
+Install apache2 
+  sudo apt update
+  sudo apt install apache2
+  
+Add new virtualhost
+  Location: /etc/apache2/sites-available/[exmaple.com]
+  example configuration file (https://github.com/Mizuki14/Learning_and_Notes/blob/main/Basic%20Setup/example.com)
+  
+  
