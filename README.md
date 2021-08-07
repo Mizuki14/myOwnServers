@@ -28,10 +28,8 @@ This repository is for to save notes and files related to my personal server
 
 
 ## Future Plan
+- [Add UPS](https://github.com/Mizuki14/Learning_and_Notes/blob/main/Future_Plan/upgrade_pi_server) 
 
-### Items required
-Rasberry Pi 4B: use one Rasberry Pi as main server and another one as test server and backup server in case of main server fails. <br>
-UPS module : add UPS module (2 * 18650 battery cells per Rasberry Pi) to have capability of safe shutdown in case of sudden electricity cut. <br>
 
 
 
