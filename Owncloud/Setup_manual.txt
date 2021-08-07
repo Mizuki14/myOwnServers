@@ -80,3 +80,11 @@ Create database for ownCloud
 ### In case of errror ###
 syntax error or access violation 1142 create command denied to user
  GRANT ALL PRIVILEGES ON `owncloud`.* TO 'owncloud'@'localhost'
+ 
+If apache2 failed to start check port is being already used by other software such as lighttpd
+In my case Pi-Hole is using lighttpd for web interface so port 80 was already used and caused unable to restart Apache2
+sudo netstat -ltnp | grep ':80'
+
+Location of configuration file for Pi-Hole:  /etc/lighttpd/lighttpd.conf
+Change server.port frrom 80 to 8080
+sudo service lighttpd restart
