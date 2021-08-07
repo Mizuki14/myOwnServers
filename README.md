@@ -18,9 +18,9 @@ This repository is for to save notes and files related to my personal server
 - Apache2 : Web server for owncloud, Pi hole
 - MYSQL: database for owncloud
 - [Certbot](https://github.com/Mizuki14/Learning_and_Notes/blob/main/Basic%20Setup/Let's%20Encrypt.txt): SSL certificate
-- Pi-hole: curl -sSL https://install.pi-hole.net | bash
-- Speedtest: sudo apt install speedtest
-- Vim: sudo apt install vim
+- Pi-hole: "curl -sSL https://install.pi-hole.net | bash"
+- Speedtest: "sudo apt install speedtest"
+- Vim: "sudo apt install vim"
 
 ## Past project
 ### Pi Project 
