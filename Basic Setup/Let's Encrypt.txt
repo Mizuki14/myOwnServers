@@ -1,10 +1,29 @@
 This is instruction manual to demonstrate how to set SSL certificate to use https
 
+I'm using Rasberry Pi 4B running Ubuntu 20.04, if you are using different OS, process might be different
+
 1: Add public IP address and domain name in /etc/hosts 
   Example 101.101.101.11 google.com 
           101.101.101.11 www.google.com
           
 2: Create configuration file in /etc/apache2/sites-available/ 
-  Example here 
+  Example [here] (https://github.com/Mizuki14/Learning_and_Notes/blob/main/Basic%20Setup/example.com)
 
-3:
+3: Go to website you purchased the domain from and add A record
+    Example: If you purchased from [Namecheap] (https://ap.www.namecheap.com/)
+    - navigate to Domain List on left hand side
+    - Click the Manage button, then go to Advanced DNS
+    - click on ADD NEW RECORD 
+    - Select A, host [Your domain], ip address [Your public IP address], then click the check button
+ 
+ ! Repeat the process but this time add www instead of your domain
+ 
+ 4: Install snapd
+   sudo apt update
+   sudo apt install snapd
+   
+   Install certbot 
+   sudo snap install --classic certbot
+
+  Issue certtificate (If you are using apache2)
+  sudo certbot --apache 
