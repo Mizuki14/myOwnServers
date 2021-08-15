@@ -30,4 +30,4 @@ This repository is for to save notes and files related to my personal server
 
 ## Future Plan
 - [Add UPS](https://github.com/Mizuki14/Learning_and_Notes/blob/main/Future_Plan/upgrade_pi_server) 
-- [Add protect carry case]
+- [Add protect carry case] (
