@@ -1,0 +1,5 @@
+Installation: sudo apt-get install speedtest-cli 
+Run: speedtest-cli or speedtest
+
+Output servers: peedtest-cli --list 
+Run with selected server: speedtest-cli --server [id]
