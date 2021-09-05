@@ -14,14 +14,15 @@ This repository is for to save notes and files related to my personal server
   - Carry case
 - Server Specification
   - Hardware : Rasberry Pi Model 4 with 4GB RAM
-
+## Future Plan
+- [Add UPS](https://github.com/Mizuki14/Learning_and_Notes/blob/main/Future_Plan/upgrade_pi_server) 
+- [Add protect carry case] (
+- 
 ## Past project
 ### Pi Project 
 
 
-## Future Plan
-- [Add UPS](https://github.com/Mizuki14/Learning_and_Notes/blob/main/Future_Plan/upgrade_pi_server) 
-- [Add protect carry case] (
+
 - 
 ## Required Software:
 - Apache2 : Web server for owncloud, Pi hole
