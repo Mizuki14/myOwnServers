@@ -24,7 +24,7 @@ This repository is for to save notes and files related to my personal server
 - 
 ## Past project
 ### Pi Project 
-- 
+- Used a paython script to calculate pi which lasted about 96 days 
 ## Required Software:
 - Apache2 : Web server for owncloud, Pi hole
 - MYSQL: database for owncloud
