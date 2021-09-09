@@ -15,14 +15,15 @@ This repository is for to save notes and files related to my personal server
 - Server Specification
   - Hardware : Rasberry Pi Model 4 with 4GB RAM
 ## Future Plan
+Software <br>
+implement Bacula for disk backup 
+Rasberry Pi with Rasberry PI OS running
+Hardware
 - [Add UPS](https://github.com/Mizuki14/Learning_and_Notes/blob/main/Future_Plan/upgrade_pi_server) 
-- [Add protect carry case] (
+- [Add protect carry case] 
 - 
 ## Past project
 ### Pi Project 
-
-
-
 - 
 ## Required Software:
 - Apache2 : Web server for owncloud, Pi hole
