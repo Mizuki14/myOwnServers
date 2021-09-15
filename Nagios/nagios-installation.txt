@@ -1,1 +1,18 @@
-This installation is done on Rasberry Pi 4B+
+This installation is done on Rasberry Pi 4B+ running Ubuntu 20.04
+<br>
+
+Step 1 - Install Packages Dependencies
+sudo apt install -y autoconf bc gawk dc build-essential gcc libc6 make wget unzip apache2 php libapache2-mod-php libgd-dev libmcrypt-dev make libssl-dev snmp libnet-snmp-perl gettext
+<br>
+Step 2 - Install Nagios Core 4.4.6 from source code
+cd ~/
+wget https://github.com/NagiosEnterprises/nagioscore/archive/nagios-4.4.6.tar.gz
+
+Extract the files and go to extracted folder
+tar -xf nagios-4.4.6.tar.gz
+cd nagioscore-*/
+
+Compile and install
+sudo ./configure --with-httpd-conf=/etc/apache2/sites-enabled
+sudo make all
+
