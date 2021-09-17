@@ -8,11 +8,43 @@ Step 2 - Install Nagios Core 4.4.6 from source code
 cd ~/
 wget https://github.com/NagiosEnterprises/nagioscore/archive/nagios-4.4.6.tar.gz
 
-Extract the files and go to extracted folder
+Step 3: Extract the files and go to extracted folder
 tar -xf nagios-4.4.6.tar.gz
 cd nagioscore-*/
 
-Compile and install
+Step 4: ompile and install
 sudo ./configure --with-httpd-conf=/etc/apache2/sites-enabled
 sudo make all
+
+Step 4: Create the Nagios user and group, and add the 'www-data' Apache user to the 'nagios' group. 
+sudo make install-groups-users
+sudo usermod -a -G nagios www-data
+
+Step 5: Install Nagios binaries, service daemon script, and the command mode
+sudo make install
+sudo make install-daemoninit
+sudo make install-commandmode
+
+Step 6: After that, install the sample script configuration. 
+sudo make install-config
+
+Step 7: Then install the Apache configuration for Nagios and activate the mod_rewrite and mode_cgi modules.
+sudo make install-webconf
+sudo a2enmod rewrite cgi
+
+Step 8: Restart apache2
+systemctl restart apache2
+sudo htpasswd -c /usr/local/nagios/etc/htpasswd.users [username
+
+
+Step 9: Step 3 - Install Nagios Plugins and NRPE Plugin
+sudo apt install monitoring-plugins nagios-nrpe-plugin
+cd /usr/local/nagios/etc
+mkdir -p /usr/local/nagios/etc/servers
+
+
+Step 10: Add sudo vim nagios.cfg 
+cfg_dir=/usr/local/nagios/etc/servers
+
+Step 11: sudo vim resource.cfg　$USER1$=/usr/lib/nagios/plugins
 
