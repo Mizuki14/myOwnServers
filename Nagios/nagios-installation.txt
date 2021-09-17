@@ -1,6 +1,8 @@
 This installation is done on Rasberry Pi 4B+ running Ubuntu 20.04
 <br>
 
+https://cyruslab.net/2012/10/19/nagios-it-appears-as-though-you-do-not-have-permission-to-view-information-for-any-of-the-hosts-you-requested/
+
 Step 1 - Install Packages Dependencies
 sudo apt install -y autoconf bc gawk dc build-essential gcc libc6 make wget unzip apache2 php libapache2-mod-php libgd-dev libmcrypt-dev make libssl-dev snmp libnet-snmp-perl gettext
 <br>
