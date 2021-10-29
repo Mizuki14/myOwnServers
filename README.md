@@ -21,7 +21,9 @@ This repository is for to save notes and files related to my personal server
 - Rasberry Pi with Rasberry PI OS running
 ### Hardware
 - [Add UPS](https://github.com/Mizuki14/Learning_and_Notes/blob/main/Future_Plan/upgrade_pi_server) 
+- [Add PoE] (https://ja.aliexpress.com/item/1005001845691410.html?spm=a2g0o.cart.0.0.32623c00lnJevG&mp=1)
 - Add protect carry case (Pelican 1120  case)
+- 
 - 
 ## Past project
 ### Pi Project 
