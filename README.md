@@ -1,7 +1,7 @@
 # Learning_and_Notes
 This repository is for to save notes and files related to my personal server
 <br>
-<h2>This is my current status of my servers </h2>
+This is my current status of my servers
 <img src=current_server.jpg width=250 height=auto>
 <br>
 - Services Currently Available
