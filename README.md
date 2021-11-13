@@ -1,6 +1,9 @@
 # Learning_and_Notes
 This repository is for to save notes and files related to my personal server
+<br>
+<h2>This is my current status of my servers </h2>
 <img src=current_server.jpg width=250 height=auto>
+<br>
 - Services Currently Available
   - [Owncloud](https://github.com/Mizuki14/Learning_and_Notes/tree/main/Owncloud): Personal cloud storage 
   - [Apache2](https://github.com/Mizuki14/Learning_and_Notes/tree/main/Apache2) : web server for owncloud and portfolio
