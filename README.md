@@ -18,6 +18,7 @@ This is my current status of my servers
 - Future Plan
   - Backkup server (another Rasberry Pi 4B)
   - UPS module
+  - Cable management
   - Carry case
 - Server Specification
   - Hardware : Rasberry Pi Model 4 with 4GB RAM
