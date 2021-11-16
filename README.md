@@ -1,6 +1,8 @@
 # Learning_and_Notes
 This repository is for to save notes and files related to my personal server
 <br>
+
+- [My collection of scripts] (https://github.com/Mizuki14/scripts)
 <br>
 This is my current status of my servers
 <br>
