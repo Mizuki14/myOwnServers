@@ -8,6 +8,7 @@ This is my current status of my servers
 <br>
 <img src=current_server.jpg width=350 height=auto>
 <br>
+<br>
 - Services Currently Available
   - [Owncloud](https://github.com/Mizuki14/Learning_and_Notes/tree/main/Owncloud): Personal cloud storage 
   - [Apache2](https://github.com/Mizuki14/Learning_and_Notes/tree/main/Apache2) : web server for owncloud and portfolio
