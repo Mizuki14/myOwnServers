@@ -11,7 +11,7 @@ This is my current status of my servers
 - Services Currently Available
   - [Owncloud](https://github.com/Mizuki14/Learning_and_Notes/tree/main/Owncloud): Personal cloud storage 
   - [Apache2](https://github.com/Mizuki14/Learning_and_Notes/tree/main/Apache2) : web server for owncloud and portfolio
-  - [Nagios] ()
+  - Nagios
   - Mysql: databse for ownCloud
   - Pi-hole: Network ad block 
   - Speedtest: Testing upload and download speed
