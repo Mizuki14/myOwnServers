@@ -42,8 +42,10 @@ This is my current status of my servers
 - MYSQL: database for owncloud
 - [Certbot](https://github.com/Mizuki14/Learning_and_Notes/blob/main/Basic%20Setup/Let's%20Encrypt.txt): SSL certificate
 - Pi-hole: "curl -sSL https://install.pi-hole.net | bash"
-- Speedtest: "sudo apt install speedtest"
+- Speedtest: "sudo apt install speedtest-cli"
 - Vim: "sudo apt install vim"
+- iperf v3
+- 
 
 
 
